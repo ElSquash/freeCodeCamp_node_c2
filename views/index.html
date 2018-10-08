@@ -1,0 +1,48 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Welcome to Challenge 2!</title>
+    <meta name="description" content="Josh's solution for challenge 2">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's client-side javascript file -->
+    <script src="/client.js" defer></script>
+  </head>
+  <body>
+      <div class="container">
+        <h2>API Project: Request Header Parser Microservice</h2>
+        <h3>User Story: </h3>
+        1. I can get the IP address, preferred languages (from header <code>Accept-Language</code>)<br> and system infos (from header <code>User-Agent</code>) for my device.
+
+        <h3>Example Usage:</h3>
+        <a href="https://dandelion-roar.gomix.me/api/whoami">
+          [base url]/api/whoami
+        </a>
+
+        <h3>Example Output:</h3>
+        <p>
+          <code>{"ipaddress":"159.20.14.100","language":"en-US,en;q=0.5",<br>"software":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0"}</code>
+        </p>
+      </div>
+      <div class="footer">
+        <p>
+          by <a href="http://www.freecodecamp.com">Joshua Peeling (via Free Code Camp)</a>
+        </p>
+      </div>
+</body>
+</html>
